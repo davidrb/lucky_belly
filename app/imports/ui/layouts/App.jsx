@@ -21,7 +21,7 @@ class App extends React.Component {
   render() {
     return (
         <Router>
-          <div>
+          <div style={{height: '100vh'}}>
             <NavBar/>
             <Switch>
               <Route exact path="/" component={Landing}/>
